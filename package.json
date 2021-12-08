@@ -1,0 +1,42 @@
+{
+  "name": "vue-scaff-cli",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@scaff/cli": "^3.5.10",
+    "ant-design-vue": "^3.0.0-alpha.14",
+    "github-markdown-css": "^4.0.0",
+    "highlight.js": "^11.2.0"
+  },
+  "devDependencies": {
+    "@scaff/typescript": "^3.5.12",
+    "@scaff/vue-cli-plugin-node": "^3.5.10",
+    "@vue/cli-plugin-typescript": "^4.5.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "configAlias": "scaff.config"
+}
