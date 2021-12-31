@@ -1,17 +1,23 @@
-@import '~ant-design-vue/dist/antd.less';
-
-// @import 'markdown';
-
-pre {
-  color: #f8f8f2;
-  border: #44475a !important;
-  background-color: #22212c !important;
-}
+@import 'ant-design-vue/dist/antd.less';
 
 /**
  * 项目投产时，请移除此处代码！
  * ========== ========== ==========
  */
+@font-face {
+  font-family: 'heaver';
+  src: url('//oss.joenix.com/vue-scaff/boldhead.woff') format('woff');
+}
+
+:root {
+  overflow: hidden;
+  font-size: 62.5%;
+}
+
+html, body {
+  overscroll-behavior-x: none;
+}
+
 html {
   &:after {
     content: 'Author by Joneix';
@@ -21,13 +27,4 @@ html {
     right: 0;
     bottom: 0;
   }
-}
-
-/**
- * 示例代码
- * ========== ========== ==========
- */
-.box {
-  border-radius: @unit;
-  background-color: white;
 }

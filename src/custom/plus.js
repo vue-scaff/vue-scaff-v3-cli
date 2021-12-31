@@ -1,3 +1,3 @@
-export default (a, b, c) => {
-  return a + b + c;
+export default (a, b) => {
+  return a + b;
 };

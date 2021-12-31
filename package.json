@@ -1,21 +1,19 @@
 {
   "name": "vue-scaff-cli",
   "version": "0.1.0",
-  "private": true,
+  "author": "joenix",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@scaff/cli": "^3.5.10",
-    "ant-design-vue": "^3.0.0-alpha.14",
-    "github-markdown-css": "^4.0.0",
-    "highlight.js": "^11.2.0"
+    "@scaff/cli": "^3.5.16",
+    "ant-design-vue": "^3.0.0-alpha.16"
   },
   "devDependencies": {
-    "@scaff/typescript": "^3.5.12",
-    "@scaff/vue-cli-plugin-node": "^3.5.10",
+    "@scaff/typescript": "^3.5.15",
+    "@scaff/vue-cli-plugin-node": "^3.5.14",
     "@vue/cli-plugin-typescript": "^4.5.0"
   },
   "eslintConfig": {

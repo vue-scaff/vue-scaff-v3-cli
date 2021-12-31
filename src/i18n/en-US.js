@@ -1,5 +1,5 @@
 export default (util) => {
   return {
-    hello: 'Hello, {msg} !',
+    lang: 'en-US',
   };
 };

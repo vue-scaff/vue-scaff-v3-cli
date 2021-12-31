@@ -1,5 +1,5 @@
 export default (util) => {
   return {
-    hello: '您好, {msg} !',
+    lang: '中文',
   };
 };

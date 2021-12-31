@@ -1,6 +1,5 @@
 module.exports = {
   main: {
-    title: 'LinkJS Vue',
     app: `App.vue`,
     mount: `#app`,
   },
@@ -19,10 +18,4 @@ module.exports = {
   },
 
   lessVariables: '/variables.module.less',
-
-  // 构建时插件
-  // plugins: [],
-
-  // 依赖拓展
-  // extensions: [],
 };

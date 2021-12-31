@@ -3,7 +3,9 @@ import { mapState } from 'vuex';
 
 // Computed Stores
 const storeMapping = mapState({
-  // 示例
+  // Global Store
+  state: (state) => state,
+  // Example
   start: ({ start }) => start,
 });
 

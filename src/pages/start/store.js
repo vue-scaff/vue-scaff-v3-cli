@@ -1,16 +1,14 @@
 export default ({ hello, $http, $api }) => {
   const state = {
-    name: 'Scaffold Start',
-    count: 100,
+    git: `https://github.com/joenix/vue-scaff`,
+    logo: `vue-scaff-fox.png`,
+    title: `VUE-SCAFF`,
+    sub: `0 CONFIGURATION`,
   };
 
   const mutations = {};
 
-  const actions = {
-    ACTION_COUNT({ state }) {
-      return ++state.count;
-    },
-  };
+  const actions = {};
 
   return { state, mutations, actions };
 };

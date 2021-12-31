@@ -1,3 +1,3 @@
 export default {
-  host: 'http://joenix.com',
+  host: 'http://vue-scaff.com',
 };
