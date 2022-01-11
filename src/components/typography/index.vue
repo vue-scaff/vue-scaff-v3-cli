@@ -1,7 +1,7 @@
 <style lang='less' scoped>
 .typography(@size) {
   img {
-    width: calc(@size * 64 / 10);
+    width: calc(@size * 64 / 12);
   }
   h1 {
     font-size: @size;

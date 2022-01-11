@@ -1185,12 +1185,12 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@scaff/cli@^3.5.16":
-  version "3.5.16"
-  resolved "https://registry.yarnpkg.com/@scaff/cli/-/cli-3.5.16.tgz#08979391a175b32ea1d05f70799d13a97eafaa5a"
-  integrity sha512-ZrmIFJ4eHIlNiiDyas3m8WJsuKfK8NJHujQbKcPioArxaImUKABk/crT+BUapBFWa+9eHAkMOc83+R2eb/uz4g==
+"@scaff/cli@^3.5.17":
+  version "3.5.17"
+  resolved "https://registry.yarnpkg.com/@scaff/cli/-/cli-3.5.17.tgz#dd2280ea04e44f389ea0bae3868c63a320368dfa"
+  integrity sha512-IbM7IcFZkfgrNENWyxhhMZ3TWejTOe+I6YoBntVgB5QJYKurA4gNX6rwXsSjdINZjS693IPas5qjDn5hRdbHLg==
   dependencies:
-    "@scaff/kit" "^3.5.13"
+    "@scaff/kit" "^3.5.17"
     "@scaff/vue" "^3.5.16"
 
 "@scaff/environ@^3.5.14":
@@ -1223,12 +1223,13 @@
   dependencies:
     merge-deep "^3.0.3"
 
-"@scaff/kit@^3.5.13":
-  version "3.5.13"
-  resolved "https://registry.yarnpkg.com/@scaff/kit/-/kit-3.5.13.tgz#a85f1f073790b79a2ec5b6f02309412507975699"
-  integrity sha512-nL2aLla9qtTsdAI+2G5XKNw7DhuwfTeFJsL2kdgzwwHHb5Pl1UTodmIL7/wFaAuGzfzFZydYYL97cD4yEhifJA==
+"@scaff/kit@^3.5.17":
+  version "3.5.17"
+  resolved "https://registry.yarnpkg.com/@scaff/kit/-/kit-3.5.17.tgz#f1bee80a6c7c7901817dee6937b7921dcaf1aef8"
+  integrity sha512-XmdVkFd+g2Ttf+iPQK9MA0SNDboXeTyN+YVYX+bBWxHqzD6o1J9wllt3sPWAlSg9ob9E31CY/jNjvDZv71vcIg==
   dependencies:
     foreach.js "^2.1.7"
+    ky "^0.28.7"
     path-to-regexp "^6.2.0"
 
 "@scaff/typescript@^3.5.15":
@@ -1254,38 +1255,25 @@
     sass-loader "^12.4.0"
     style-resources-loader "^1.5.0"
 
-"@scaff/vue-cli-config@^3.5.13":
-  version "3.5.13"
-  resolved "https://registry.yarnpkg.com/@scaff/vue-cli-config/-/vue-cli-config-3.5.13.tgz#bbf72b47bfee2cccd7f57ecddc6231d95a01d189"
-  integrity sha512-fROsEUEHHzl2JwoZoEVVFedsXLAsut1G6M4LxSh5or9oobPaGJp4zVuhL0E+zgbznJ1uTB6S8uhu1D+rT0CHdg==
+"@scaff/vue-cli-config@^3.5.17":
+  version "3.5.17"
+  resolved "https://registry.yarnpkg.com/@scaff/vue-cli-config/-/vue-cli-config-3.5.17.tgz#31eaff4348b8ae66e6aa274f9faf3abc940ccbe5"
+  integrity sha512-0uNInnJ+MCmL/q4pBDmSztnLJquOPPB6c4GkqaUTED7IDXRBJ0Zw+w7ZwJiqxpdFOq3f66TMtT+cTYat76iPDw==
   dependencies:
-    "@scaff/kit" "^3.5.13"
+    "@scaff/kit" "^3.5.17"
 
-"@scaff/vue-cli-plugin-node@^3.5.14":
-  version "3.5.14"
-  resolved "https://registry.yarnpkg.com/@scaff/vue-cli-plugin-node/-/vue-cli-plugin-node-3.5.14.tgz#e9abb7eb8efa4146330af9876047ae448e25c1e3"
-  integrity sha512-ZyhkPS8TTSavJQ6Udox2Z6+cu88vURG7GtAu0BXfToKOsRUG6pAjeKP4phHa0iR84vBYueST3suIJYLpA8reNA==
+"@scaff/vue-cli-plugin-node@^3.5.17":
+  version "3.5.17"
+  resolved "https://registry.yarnpkg.com/@scaff/vue-cli-plugin-node/-/vue-cli-plugin-node-3.5.17.tgz#cbf079f219c546edd0038441529ebbcc313011bf"
+  integrity sha512-IDcYwv8JZhdOwwWH8cXct1Cx4+rJu4gdCepzItZ5sG8D8ISIPdtHY05RWzXaoaoqraOnOYypJ3lGKJWBjoggzA==
   dependencies:
     "@scaff/vite-plugin-node" "^3.5.14"
-    "@scaff/vue" "^3.5.14"
-    "@scaff/vue-cli-config" "^3.5.13"
+    "@scaff/vue" "^3.5.16"
+    "@scaff/vue-cli-config" "^3.5.17"
     clone "^2.1.2"
     importz "^2.0.2"
     merge-deep "^3.0.3"
     vue-markdown-loader "^2.4.1"
-
-"@scaff/vue@^3.5.14":
-  version "3.5.14"
-  resolved "https://registry.yarnpkg.com/@scaff/vue/-/vue-3.5.14.tgz#938b8a68e526b44ade990dad21be6e88a4b3261a"
-  integrity sha512-kqsiQaW/5T1Iw5CO/QqE6H5TW2scfrWa4nx7J4GlreM7K4DeicILa+qm8l406qkWR+eFttEYR0fnczeYwkbHPw==
-  dependencies:
-    promise-super "^1.3.2"
-    qs "^6.10.1"
-    vue "^3.2.26"
-    vue-i18n "^9.2.0-beta.25"
-    vue-router "4.0.12"
-    vuex "4.0.2"
-    vuex-fast "^2.1.6"
 
 "@scaff/vue@^3.5.16":
   version "3.5.16"
@@ -5952,6 +5940,11 @@ klona@^2.0.4, klona@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.5.tgz#d166574d90076395d9963aa7a928fabb8d76afbc"
   integrity sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==
+
+ky@^0.28.7:
+  version "0.28.7"
+  resolved "https://registry.yarnpkg.com/ky/-/ky-0.28.7.tgz#10c42be863fb96c1846d6e71e229263ffb72eb15"
+  integrity sha512-a23i6qSr/ep15vdtw/zyEQIDLoUaKDg9Jf04CYl/0ns/wXNYna26zJpI+MeIFaPeDvkrjLPrKtKOiiI3IE53RQ==
 
 launch-editor-middleware@^2.2.1:
   version "2.2.1"
