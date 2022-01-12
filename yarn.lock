@@ -1185,18 +1185,18 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@scaff/cli@^3.5.17":
-  version "3.5.17"
-  resolved "https://registry.yarnpkg.com/@scaff/cli/-/cli-3.5.17.tgz#dd2280ea04e44f389ea0bae3868c63a320368dfa"
-  integrity sha512-IbM7IcFZkfgrNENWyxhhMZ3TWejTOe+I6YoBntVgB5QJYKurA4gNX6rwXsSjdINZjS693IPas5qjDn5hRdbHLg==
+"@scaff/cli@^3.5.20":
+  version "3.5.20"
+  resolved "https://registry.yarnpkg.com/@scaff/cli/-/cli-3.5.20.tgz#3fcab37bf17e372bd276061d084bed41576f4078"
+  integrity sha512-PUCInyGJuhlopu/8UmwSsSxDze4zUL0ju1pK/10YLfQI2+WDFX16Dl654/3Ep0fknkxah8XlxU5C0fwMcThv0A==
   dependencies:
-    "@scaff/kit" "^3.5.17"
-    "@scaff/vue" "^3.5.16"
+    "@scaff/kit" "^3.5.20"
+    "@scaff/vue" "^3.5.19"
 
-"@scaff/environ@^3.5.14":
-  version "3.5.14"
-  resolved "https://registry.yarnpkg.com/@scaff/environ/-/environ-3.5.14.tgz#3785ed4ac71b1c998927e353695ce11581bc6f91"
-  integrity sha512-wtB+d2gwQfiV8XZZMy7T7Rc6eVObCjaD2+2q5VPKzzkFLGPjJnDfSUwU51Hjwdwye3O1MuSakXxTCL33Vi0krg==
+"@scaff/environ@^3.5.19":
+  version "3.5.19"
+  resolved "https://registry.yarnpkg.com/@scaff/environ/-/environ-3.5.19.tgz#ec4f784d4caae11ccffa6949eb18ef64a3b2e0fe"
+  integrity sha512-+/D7fQ910Dux9Wt+ZPlbzslblXtIO8q21YOiqw9glJFpCXkV6TZxXEe9fRga84NRomOeq0vovQA3CefX23OvPA==
   dependencies:
     "@babel/core" "^7.16.5"
     "@babel/eslint-parser" "^7.16.5"
@@ -1216,18 +1216,20 @@
     postcss-preset-env "^7.1.0"
     prettier "^2.5.1"
 
-"@scaff/kit-node@^3.5.8":
-  version "3.5.8"
-  resolved "https://registry.yarnpkg.com/@scaff/kit-node/-/kit-node-3.5.8.tgz#78ca34d9da703defc304252f2928ce3932c5c5db"
-  integrity sha512-Mr5QP1oDIzHf5wHcYPpiSG0oULBgsz5/HlbomXC+MF42eCDvSpuK8zO26cEViTFAoTG62qVtNQPktXxFEMH18Q==
+"@scaff/kit-node@^3.5.20":
+  version "3.5.20"
+  resolved "https://registry.yarnpkg.com/@scaff/kit-node/-/kit-node-3.5.20.tgz#60654e5f0d2e6c4c1699de1fccc47684986adabd"
+  integrity sha512-OqWWF1+gH5uz2kwRunwiwAgXwZf7Bp0zPeHlH54gnE6XC2O0BJfGLu1wP1qF4vTrMJ7KR6xRjijg/EJC/5lX+Q==
   dependencies:
+    "@scaff/version" "^3.5.20"
     merge-deep "^3.0.3"
 
-"@scaff/kit@^3.5.17":
-  version "3.5.17"
-  resolved "https://registry.yarnpkg.com/@scaff/kit/-/kit-3.5.17.tgz#f1bee80a6c7c7901817dee6937b7921dcaf1aef8"
-  integrity sha512-XmdVkFd+g2Ttf+iPQK9MA0SNDboXeTyN+YVYX+bBWxHqzD6o1J9wllt3sPWAlSg9ob9E31CY/jNjvDZv71vcIg==
+"@scaff/kit@^3.5.20":
+  version "3.5.20"
+  resolved "https://registry.yarnpkg.com/@scaff/kit/-/kit-3.5.20.tgz#12de2a240d734f809e6a0ef4f5317814466fe853"
+  integrity sha512-pXHO8eUFEZR8FVX6PbH3Pyzpw4NVj5sScO/OF8SucLdc5OuoyY0cJyj1zhMmvKmgPhojgArHymbaA9MqWKqZFw==
   dependencies:
+    "@scaff/version" "^3.5.20"
     foreach.js "^2.1.7"
     ky "^0.28.7"
     path-to-regexp "^6.2.0"
@@ -1242,43 +1244,50 @@
     "@vue/eslint-config-typescript" "^10.0.0"
     typescript "~4.5.4"
 
-"@scaff/vite-plugin-node@^3.5.14":
-  version "3.5.14"
-  resolved "https://registry.yarnpkg.com/@scaff/vite-plugin-node/-/vite-plugin-node-3.5.14.tgz#f0accd7f3a42cec5e450967ff8a322bfae5967de"
-  integrity sha512-/IiRvATUSxbJTPjysccMR4r/5WMycyASkJhyW1kVJXvlmuLBcKd6f9BdfLdyGIlZm83FUc01u9Bm6ITxpFV1fQ==
+"@scaff/version@^3.5.20":
+  version "3.5.20"
+  resolved "https://registry.yarnpkg.com/@scaff/version/-/version-3.5.20.tgz#a42803178bd5b0e9edae29c784995723456f4c00"
+  integrity sha512-Eys9sXORO7IN6p98JGINHtuuz/I+zxI3b/EvWj116Nm2ShjIXZRXgzi0W3faZKvrwTMSaBo57jtBk24VxSglbQ==
   dependencies:
-    "@scaff/environ" "^3.5.14"
-    "@scaff/kit-node" "^3.5.8"
+    vue-scaff "*"
+
+"@scaff/vite-plugin-node@^3.5.20":
+  version "3.5.20"
+  resolved "https://registry.yarnpkg.com/@scaff/vite-plugin-node/-/vite-plugin-node-3.5.20.tgz#6d0fa5e9c59ea216fe098d6dd5a9570a10d2131c"
+  integrity sha512-CzBF0uKaTFJN4xSNuXmlKux5kpF7ncYsGJy75GfOfSmzlfwN7d5/EVBERF2N1ya3YLfq5zRJ7TFLmEECupLYUA==
+  dependencies:
+    "@scaff/environ" "^3.5.19"
+    "@scaff/kit-node" "^3.5.20"
     less "^4.1.2"
     less-loader "^10.2.0"
     sass "^1.45.1"
     sass-loader "^12.4.0"
     style-resources-loader "^1.5.0"
 
-"@scaff/vue-cli-config@^3.5.17":
-  version "3.5.17"
-  resolved "https://registry.yarnpkg.com/@scaff/vue-cli-config/-/vue-cli-config-3.5.17.tgz#31eaff4348b8ae66e6aa274f9faf3abc940ccbe5"
-  integrity sha512-0uNInnJ+MCmL/q4pBDmSztnLJquOPPB6c4GkqaUTED7IDXRBJ0Zw+w7ZwJiqxpdFOq3f66TMtT+cTYat76iPDw==
+"@scaff/vue-cli-config@^3.5.20":
+  version "3.5.20"
+  resolved "https://registry.yarnpkg.com/@scaff/vue-cli-config/-/vue-cli-config-3.5.20.tgz#eda20fed31beb9933a70a35bf29e8a685d39ee61"
+  integrity sha512-j2DyAoZgR8HJ0OaAhSuJDoV9Nm1nk8a2coHOW6hsnolhu/l0olh3mNIft/7FaW1AXpwLiyRbjVpQRTiwCJZXDw==
   dependencies:
-    "@scaff/kit" "^3.5.17"
+    "@scaff/kit" "^3.5.20"
 
-"@scaff/vue-cli-plugin-node@^3.5.17":
-  version "3.5.17"
-  resolved "https://registry.yarnpkg.com/@scaff/vue-cli-plugin-node/-/vue-cli-plugin-node-3.5.17.tgz#cbf079f219c546edd0038441529ebbcc313011bf"
-  integrity sha512-IDcYwv8JZhdOwwWH8cXct1Cx4+rJu4gdCepzItZ5sG8D8ISIPdtHY05RWzXaoaoqraOnOYypJ3lGKJWBjoggzA==
+"@scaff/vue-cli-plugin-node@^3.5.20":
+  version "3.5.20"
+  resolved "https://registry.yarnpkg.com/@scaff/vue-cli-plugin-node/-/vue-cli-plugin-node-3.5.20.tgz#1132eb1f1ac87bf1bdaef760c92d919f4db69c9c"
+  integrity sha512-Jeagm5X0tcvMWa0p5LbUPdq2QYSHrtjrzcgQ4OIQhtwtaQgC81dSq7eOKHcqXpPwT4PRSIN2I2wrzKR1Orr8Vg==
   dependencies:
-    "@scaff/vite-plugin-node" "^3.5.14"
-    "@scaff/vue" "^3.5.16"
-    "@scaff/vue-cli-config" "^3.5.17"
+    "@scaff/vite-plugin-node" "^3.5.20"
+    "@scaff/vue" "^3.5.19"
+    "@scaff/vue-cli-config" "^3.5.20"
     clone "^2.1.2"
     importz "^2.0.2"
     merge-deep "^3.0.3"
     vue-markdown-loader "^2.4.1"
 
-"@scaff/vue@^3.5.16":
-  version "3.5.16"
-  resolved "https://registry.yarnpkg.com/@scaff/vue/-/vue-3.5.16.tgz#9a88ca755cbd9cd7d14e2a604e0ca240541a25e7"
-  integrity sha512-MJ+Fq43e9EXyTZgbdM8hZyHd4GFxQW2nf/l0RRbcIrASQXG8oi/sVXOnlX2VtXQ+HPM7cqaYjpnkpzy754bCiQ==
+"@scaff/vue@^3.5.19":
+  version "3.5.19"
+  resolved "https://registry.yarnpkg.com/@scaff/vue/-/vue-3.5.19.tgz#59d0bc3441ee3b2916753ffc5c86b55542afa664"
+  integrity sha512-+nSohSzZHroOYwuVDUaQkakoUuYWLTl9fSwdCbj49NMYXFE4sXg0zBNVEZ3V67D1a5+RyXp/BF6o+TV6eye0aQ==
   dependencies:
     promise-super "^1.3.2"
     qs "^6.10.1"
@@ -9310,6 +9319,11 @@ vue-router@4.0.12:
   integrity sha512-CPXvfqe+mZLB1kBWssssTiWg4EQERyqJZes7USiqfW9B5N2x+nHlnsM1D3b5CaJ6qgCvMmYJnz+G0iWjNCvXrg==
   dependencies:
     "@vue/devtools-api" "^6.0.0-beta.18"
+
+vue-scaff@*:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/vue-scaff/-/vue-scaff-3.0.2.tgz#1a35f361f61fae70da266e961f326c7558d94d5b"
+  integrity sha512-nDgOQB6VAJ7wuhxnILkepRBvq4IHTLm8xxKvxJatgM0EVM5wC2ZoHHIoSRGdXb4O0b5QlNFxR8ZGbsAGp3GF3A==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.3:
   version "4.1.3"
