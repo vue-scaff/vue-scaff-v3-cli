@@ -16,20 +16,6 @@
     "@scaff/vue-cli-plugin-node": "^3.5.20",
     "@vue/cli-plugin-typescript": "^4.5.0"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended",
-      "@vue/prettier"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
