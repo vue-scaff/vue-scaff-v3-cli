@@ -19,9 +19,9 @@
 
   <a-drawer v-model:visible="visible" :title="title" placement="right">
     <a-form>
-      <a-statistic-countdown :value="day1" @finish="countdown">
+      <a-statistic-countdown :value="minute" @finish="countdown">
         <template #title>
-          <span>1 Day Countdown</span>
+          <span>1 Minute Countdown</span>
         </template>
       </a-statistic-countdown>
     </a-form>
@@ -38,7 +38,7 @@
         <a-space>
           <a-switch v-model:checked="currency" checked-children="Dollar" un-checked-children="Euro" />
           <a-button type="dashed">
-            {{ currency ? $filter.cash(100, 'dollar') : $filter.cash(100, 'euro') }}
+            {{ currency ? $filter.cash(cash, 'dollar') : $filter.cash(cash, 'euro') }}
           </a-button>
         </a-space>
       </a-form-item>
@@ -64,27 +64,37 @@
 <script>
 import * as packages from '../../../package.json';
 
-const { name, version, author } = packages;
+const { name, dependencies } = packages;
 
 import { message } from 'ant-design-vue';
 
 export default {
+  props: {
+    author: {
+      type: [String],
+      default: '',
+    },
+    cash: {
+      type: [Number, String],
+      default: 0,
+    },
+  },
+
   data() {
     return {
-      author,
       visible: false,
       distance: 50,
       currency: true,
       a: 10,
       b: 20,
       inputSpace: { width: `100px` },
-      day1: Date.now() + 1000 * 60,
+      minute: Date.now() + 1000 * 60,
     };
   },
 
   computed: {
     title() {
-      return `${name} - v${version}`;
+      return `${name} - ${dependencies['@scaff/cli'].replace(/^\^/, '')}`;
     },
   },
 

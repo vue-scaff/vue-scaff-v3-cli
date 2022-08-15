@@ -18,6 +18,20 @@ export default ({ app, util, route, store, style, i18n, $http, md, custom }, nex
   // Extension Icons
   app.config.globalProperties.$icons = Icons;
 
+  // Http Interceptor
+  $http.interceptor.resultParse = async result => {
+    // Success if Status is 200
+    if (result.status === 200) {
+      return result.data;
+    }
+
+    // Errors
+    Antv.message(result.message);
+
+    // Any
+    return result;
+  };
+
   // Running
   next();
 

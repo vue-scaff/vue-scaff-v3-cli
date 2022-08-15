@@ -74,7 +74,8 @@ export default {
 
   computed: {
     src() {
-      return navigator.onLine ? `${this.state.oss}/${this.logo}` : this.$util.uri(this.logo);
+      // return navigator.onLine ? `${this.state.oss}/${this.logo}` : this.$util.uri(this.logo);
+      return this.custom.logo;
     },
   },
 };
